@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+    double km;
+    scanf("%lf",&km);
+    double meters=km*1000;
+    double speed=(meters/3600);
+    printf("%.2lf",speed);
+}
