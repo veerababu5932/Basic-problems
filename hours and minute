@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    int minutes;
+    int hours, remaining_minutes;
+    
+    // Input the minutes
+    scanf("%d", &minutes);
+    
+    // Calculate hours and remaining minutes
+    hours = minutes / 60;
+    remaining_minutes = minutes % 60;
+    
+    // Print the result in "Hour(s)" and "Minute(s)" format
+    printf("%d Hour(s) %d Minute(s)\n", hours, remaining_minutes);
+    
+    return 0;
+}
+
