@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int A, B, sum;
+    
+    // Input: Two space-separated integers A and B
+    scanf("%d %d", &A, &B);
+    
+    // Compute the sum
+    sum = A + B;
+    
+    // Print the result by appending '1' to the sum
+    printf("%d1\n", sum);
+    
+    return 0;
+}
